@@ -1,8 +1,11 @@
-import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import styles from './ui/shape.module.css';
 import Image from 'next/image';
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'App',
+};
 
 export default function Page() {
   return (

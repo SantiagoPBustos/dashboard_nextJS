@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'App',
+  title: 'Acme Dashboard',
 };
 
 export default function Page() {
